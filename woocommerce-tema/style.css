@@ -1,0 +1,203 @@
+/*
+Theme Name: woocommerce Tema
+Author: Dana Alhawari
+Version: 1.0
+Description: Ett tema som ska ha stöd för woocommerce
+*/
+
+body,
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header*/
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.primary-menu-wrapper {
+    width: 646px;
+    font-size: 18px;
+}
+
+.header-navigation-wrapper {
+    padding: 17px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.primary-menu a {
+    color: #964B00;
+    text-decoration: none;
+}
+.primary-menu a:hover{
+    color: #f60;
+}
+.primary-menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#page{
+    margin-bottom:123px;
+}
+/*shop page (böcker)*/
+.woocommerce-main {
+    max-width: 80%;
+    padding-top: 50px;
+    margin: auto;
+
+}
+
+
+.main-content .woocommerce{
+max-width: 80%;
+    padding-top: 50px;
+   margin: auto;
+}
+h2{
+    color: #964B00;
+}
+
+/*product image*/
+.woocommerce ul.products li.product a img{
+    height: 300px;
+}
+
+/*product button*/
+.woocommerce a.button {
+    color: #f60;
+    background-color: white;
+    border: 2px solid #f60;
+    width: 80%;
+    text-align: center;
+}
+.woocommerce a.button:hover {
+    background-color: #f60;
+    color: white;
+}
+
+/*view cart*/
+.woocommerce a.added_to_cart{
+    color: #f60;
+    background-color: white;
+    border: 2px solid #f60;
+    width: 80%;
+    text-align: center;
+    margin-top: 3px;
+    padding: 6px 16px;
+}
+.woocommerce a.added_to_cart:hover{
+    background-color: #f60;
+    color: white;
+}
+
+
+/* price*/
+.woocommerce ul.products li.product .price{
+    color: #f60;
+}
+
+/* sale icon*/
+.woocommerce span.onsale{
+    background-color:#f60;
+}
+#footer{
+    text-align: center;
+    border-top: 1px solid #f60;
+    padding: 10px;
+}
+a.footer {
+    color: #f60;
+    text-decoration: none;
+}
+
+
+
+/* single product quantity*/
+.woocommerce .quantity .qty{
+    height: 28px;
+}
+/* kr */
+.woocommerce-Price-currencySymbol{
+padding-left: 4px;
+
+}
+/*price*/
+.woocommerce-Price-amount {
+    color: #f60;
+}
+
+h1{
+        color:#964B00;
+             
+}
+
+/* single product Categories:*/
+.posted_in a{
+        color: #f60;
+        text-decoration: none;
+}
+
+/*checkout*/
+.woocommerce button.button.alt{
+    background-color: #f60;
+    color: white;
+}
+.woocommerce button.button.alt:hover {
+    background-color: #f60;
+    color: white;
+}
+.woocommerce-info {
+    border-top-color: #f60;
+}
+
+.woocommerce-info::before {
+    color: #f60;
+}
+
+.woocommerce form .form-row .required {
+    color: #f60;
+}
+
+form.checkout {
+    display: flex;
+}
+
+form.checkout div {
+    width: 90%;
+}
+
+h3.order_review_heading {
+    width: 100%;
+}
+
+/*cart*/
+.woocommerce a.button.alt{
+    background-color: #f60;
+    color: white;
+}
+.woocommerce a.button.alt:hover {
+    background-color: #f60;
+    color: white;
+}
+
+
+/*woocommerce-message*/
+.woocommerce-message{
+    border-top-color: #f60;
+}
+.woocommerce-message a.button{
+    width: 20%;
+}
+.woocommerce-message::before{
+    color: #f60;
+}
