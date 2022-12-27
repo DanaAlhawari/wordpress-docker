@@ -1,0 +1,55 @@
+/*
+Theme Name: Book Tema
+Author: Dana Alhawari
+Version: 1.0
+Description: Ett tema som skapat för att handla böcker
+*/
+
+
+#header {
+    box-shadow: 0 2px 4px 0 rgb(186 186 186 / 50%);
+    margin-bottom: 5%;
+}
+
+#logo {
+    text-align: center;
+    height: 100px;
+}
+
+a.logo {
+    color: #f60;
+    font-size: 50px;
+    text-decoration: none;
+
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.container > div{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(244, 247, 249);
+    width: 100%;
+    
+}
+
+
+.title ,h2{
+    text-decoration: none;
+   
+    color: #f60;
+}
+input[type="submit" ] {
+    background-color: #f60;
+    color: white;
+    border: none;
+    border-radius:4%;
+    padding: 8px;
+   
+}
+input[type="submit"]:hover{
+    color: black;
+}
