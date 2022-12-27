@@ -1,0 +1,23 @@
+/*
+Theme Name: ITHS Tema
+Author: Dana
+Version: 1.0
+Description: Ett nytt tema
+*/
+
+
+h1
+{
+    text-align: center;
+    color: #f60;
+}
+.title{
+    text-decoration: none;
+    color:#f60
+}
+
+.container > div{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(244, 247, 249);
+}
